@@ -6,7 +6,7 @@ const SideBar = (props) => {
     return (
         // Flex Class that allow to put the content in a column, with that the logout it's at the bottom
         <div className={`bg-[#000e14] fixed lg:left-0 top-0 w-28 h-full flex flex-col justify-between
-        py-3 rounded-tr-xl rounded-br-xl  ${showMenu ? "left-0" : "-left-full"} transition-all`}>
+        py-3 rounded-tr-xl rounded-br-xl z-50 ${showMenu ? "left-0" : "-left-full"} transition-all`}>
             <div>
                 <ul className="mt-5 pl-4 ">
                     <li>
