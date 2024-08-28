@@ -6,7 +6,7 @@ const PlateList = ({ dishes, activeTab }) => {
     const filteredDishes = dishes.filter(dish => dish.category === activeTab);
 
     return (
-        <div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-16">
             {filteredDishes.map(dish => (
                 <motion.div
                     key={dish.dishName}
