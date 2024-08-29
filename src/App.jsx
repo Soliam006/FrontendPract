@@ -43,13 +43,13 @@ function App() {
     { category: 'Hot Dishes', imgSrc: '/Hot_4.png', dishName: 'Tater Tot', dishDescription: 'Combines ground beef, cream of mushroom soup, cream of chicken soup, corn, peas, and colby jack cheese.', price: '$11.75' },
     { category: 'Hot Dishes', imgSrc: '/Hot_5.png', dishName: 'Chow Mein', dishDescription: 'Ground beef, rice, and creamy soup, topped with crunchy chow mein noodles.', price: '$11.75' },
 
-    { category: 'Cold Dishes', imgSrc: 'photos/Cold_1.jfif', dishName: 'Cold Dish 1', dishDescription: 'This is a description for Cold Dish 1.', price: '$3.50' },
-    { category: 'Cold Dishes', imgSrc: 'photos/Cold_2.jfif', dishName: 'Algae Caesar Salad', dishDescription: 'Caesar salad with a twist, featuring nutrient-rich algae.', price: '$14.00' },
-    { category: 'Cold Dishes', imgSrc: 'photos/Cold_3.jpg', dishName: 'Pupusas with Curtido', dishDescription: 'Salvadoran corn cakes stuffed with cheese or meat, served with curtido.', price: '$10.00' },
+    { category: 'Cold Dishes', imgSrc: 'cold1.jfif', dishName: 'Cold Dish 1', dishDescription: 'This is a description for Cold Dish 1.', price: '$3.50' },
+    { category: 'Cold Dishes', imgSrc: 'cold2.jfif', dishName: 'Algae Caesar Salad', dishDescription: 'Caesar salad with a twist, featuring nutrient-rich algae.', price: '$14.00' },
+    { category: 'Cold Dishes', imgSrc: 'cold3.jpg', dishName: 'Pupusas with Curtido', dishDescription: 'Salvadoran corn cakes stuffed with cheese or meat, served with curtido.', price: '$10.00' },
 
-    { category: 'Desserts', imgSrc: '/dessert_1.png', dishName: 'Cava and raspberry truffles.', dishDescription: ' Dark chocolate. Cocoa. Liquid cream', price: '$2.25' },
-    { category: 'Desserts', imgSrc: '/dessert_2.jpg', dishName: 'Sausage Stuffed Dates with Goat Cheese', dishDescription: 'Medjool dates stuffed with sausage and goat cheese.', price: '$14.00' },
-    { category: 'Desserts', imgSrc: '/Dessert_3.jpg', dishName: 'Moroccan Chickpea and Date Tagine', dishDescription: 'Spiced chickpeas and dates in a fragrant tagine.', price: '$20.00' },
+    { category: 'Desserts', imgSrc: '/dessert1.png', dishName: 'Cava and raspberry truffles.', dishDescription: ' Dark chocolate. Cocoa. Liquid cream', price: '$2.25' },
+    { category: 'Desserts', imgSrc: '/dessert2.jpg', dishName: 'Sausage Stuffed Dates with Goat Cheese', dishDescription: 'Medjool dates stuffed with sausage and goat cheese.', price: '$14.00' },
+    { category: 'Desserts', imgSrc: '/dessert3.jpg', dishName: 'Moroccan Chickpea and Date Tagine', dishDescription: 'Spiced chickpeas and dates in a fragrant tagine.', price: '$20.00' },
 
     { category: 'Drinks', imgSrc: '/Drink_1.jfif', dishName: 'Hibiscus Iced Tea', dishDescription: 'A vibrant and tangy iced tea made from hibiscus flowers.', price: '$2.50'  },
     { category: 'Drinks', imgSrc: '/Drink_2.jpg', dishName: 'Tamarind Agua Fresca', dishDescription: 'Refreshing drink made with tamarind, water, and sugar.', price: '$3.00' },
