@@ -37,27 +37,27 @@ function App() {
 
     {/*Dishes Data*/}
     const [dishes, setDishes] = useState([
-    { category: 'Hot Dishes', imgSrc: '/Hot_1.png', dishName: 'Minnesota Hot Dish', dishDescription: 'Is a classic comfort food that originates from the Midwest.', price: '$4.58' },
-    { category: 'Hot Dishes', imgSrc: '/Hot_2.jfif', dishName: 'Celery Root Milanese', dishDescription: 'Poached, breaded, and fried celery root topped with lemon caper aioli and salad.', price: '$18.00' },
-    { category: 'Hot Dishes', imgSrc: '/Hot_3.png', dishName: 'Tamarind & Pasilla Chile Glazed Chicken', dishDescription: 'Chicken glazed with tamarind and pasilla chile, served with coconut vinegar pickles.', price: '$22.00'},
-    { category: 'Hot Dishes', imgSrc: '/Hot_4.png', dishName: 'Tater Tot', dishDescription: 'Combines ground beef, cream of mushroom soup, cream of chicken soup, corn, peas, and colby jack cheese.', price: '$11.75' },
-    { category: 'Hot Dishes', imgSrc: '/Hot_5.png', dishName: 'Chow Mein', dishDescription: 'Ground beef, rice, and creamy soup, topped with crunchy chow mein noodles.', price: '$11.75' },
+    { category: 'Hot Dishes', imgSrc: 'hot1.png', dishName: 'Minnesota Hot Dish', dishDescription: 'Is a classic comfort food that originates from the Midwest.', price: '$4.58' },
+    { category: 'Hot Dishes', imgSrc: 'hot2.jfif', dishName: 'Celery Root Milanese', dishDescription: 'Poached, breaded, and fried celery root topped with lemon caper aioli and salad.', price: '$18.00' },
+    { category: 'Hot Dishes', imgSrc: 'hot3.png', dishName: 'Tamarind & Pasilla Chile Glazed Chicken', dishDescription: 'Chicken glazed with tamarind and pasilla chile, served with coconut vinegar pickles.', price: '$22.00'},
+    { category: 'Hot Dishes', imgSrc: 'hot4.png', dishName: 'Tater Tot', dishDescription: 'Combines ground beef, cream of mushroom soup, cream of chicken soup, corn, peas, and colby jack cheese.', price: '$11.75' },
+    { category: 'Hot Dishes', imgSrc: 'hot5.png', dishName: 'Chow Mein', dishDescription: 'Ground beef, rice, and creamy soup, topped with crunchy chow mein noodles.', price: '$11.75' },
 
     { category: 'Cold Dishes', imgSrc: 'cold1.jfif', dishName: 'Cold Dish 1', dishDescription: 'This is a description for Cold Dish 1.', price: '$3.50' },
     { category: 'Cold Dishes', imgSrc: 'cold2.jfif', dishName: 'Algae Caesar Salad', dishDescription: 'Caesar salad with a twist, featuring nutrient-rich algae.', price: '$14.00' },
     { category: 'Cold Dishes', imgSrc: 'cold3.jpg', dishName: 'Pupusas with Curtido', dishDescription: 'Salvadoran corn cakes stuffed with cheese or meat, served with curtido.', price: '$10.00' },
 
-    { category: 'Desserts', imgSrc: '/dessert1.png', dishName: 'Cava and raspberry truffles.', dishDescription: ' Dark chocolate. Cocoa. Liquid cream', price: '$2.25' },
-    { category: 'Desserts', imgSrc: '/dessert2.jpg', dishName: 'Sausage Stuffed Dates with Goat Cheese', dishDescription: 'Medjool dates stuffed with sausage and goat cheese.', price: '$14.00' },
-    { category: 'Desserts', imgSrc: '/dessert3.jpg', dishName: 'Moroccan Chickpea and Date Tagine', dishDescription: 'Spiced chickpeas and dates in a fragrant tagine.', price: '$20.00' },
+    { category: 'Desserts', imgSrc: 'dessert1.png', dishName: 'Cava and raspberry truffles.', dishDescription: ' Dark chocolate. Cocoa. Liquid cream', price: '$2.25' },
+    { category: 'Desserts', imgSrc: 'dessert2.jpg', dishName: 'Sausage Stuffed Dates with Goat Cheese', dishDescription: 'Medjool dates stuffed with sausage and goat cheese.', price: '$14.00' },
+    { category: 'Desserts', imgSrc: 'dessert3.jpg', dishName: 'Moroccan Chickpea and Date Tagine', dishDescription: 'Spiced chickpeas and dates in a fragrant tagine.', price: '$20.00' },
 
-    { category: 'Drinks', imgSrc: '/Drink_1.jfif', dishName: 'Hibiscus Iced Tea', dishDescription: 'A vibrant and tangy iced tea made from hibiscus flowers.', price: '$2.50'  },
-    { category: 'Drinks', imgSrc: '/Drink_2.jpg', dishName: 'Tamarind Agua Fresca', dishDescription: 'Refreshing drink made with tamarind, water, and sugar.', price: '$3.00' },
-    { category: 'Drinks', imgSrc: '/Drink_3.jpg', dishName: 'Matcha Latte', dishDescription: 'Creamy matcha latte made with premium matcha powder.', price: '$4.00' },
-    { category: 'Drinks', imgSrc: '/Drink_4.jfif', dishName: 'Iced Caramel Macchiato',    dishDescription: 'Rich espresso layered with milk and caramel syrup over ice.',  price: '$4.50'  },
-    { category: 'Drinks', imgSrc: '/Drink_5.jfif', dishName: 'Lemon Mint Cooler',    dishDescription: 'A refreshing blend of lemon juice, mint leaves, and sparkling water.',    price: '$3.50'  },
-    { category: 'Drinks', imgSrc: '/Drink_6.jfif', dishName: 'Coconut Water',    dishDescription: 'Naturally hydrating coconut water, served chilled.',  price: '$3.00'  },
-    { category: 'Drinks', imgSrc: '/Drink_7.jpg', dishName: 'Berry Smoothie', dishDescription: 'A smoothie made with mixed berries, yogurt, and a hint of honey.',   price: '$4.00'   }
+    { category: 'Drinks', imgSrc: 'drink1.jfif', dishName: 'Hibiscus Iced Tea', dishDescription: 'A vibrant and tangy iced tea made from hibiscus flowers.', price: '$2.50'  },
+    { category: 'Drinks', imgSrc: 'drink2.jpg', dishName: 'Tamarind Agua Fresca', dishDescription: 'Refreshing drink made with tamarind, water, and sugar.', price: '$3.00' },
+    { category: 'Drinks', imgSrc: 'drink3.jpg', dishName: 'Matcha Latte', dishDescription: 'Creamy matcha latte made with premium matcha powder.', price: '$4.00' },
+    { category: 'Drinks', imgSrc: 'drink4.jfif', dishName: 'Iced Caramel Macchiato',    dishDescription: 'Rich espresso layered with milk and caramel syrup over ice.',  price: '$4.50'  },
+    { category: 'Drinks', imgSrc: 'drink5.jfif', dishName: 'Lemon Mint Cooler',    dishDescription: 'A refreshing blend of lemon juice, mint leaves, and sparkling water.',    price: '$3.50'  },
+    { category: 'Drinks', imgSrc: 'drink6.jfif', dishName: 'Coconut Water',    dishDescription: 'Naturally hydrating coconut water, served chilled.',  price: '$3.00'  },
+    { category: 'Drinks', imgSrc: 'drink7.jpg', dishName: 'Berry Smoothie', dishDescription: 'A smoothie made with mixed berries, yogurt, and a hint of honey.',   price: '$4.00'   }
     ]);
 
 
