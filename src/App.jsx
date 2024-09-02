@@ -85,7 +85,7 @@ function App() {
             </nav>
             {/*Main container con un pl de 28 para evitar el sideBar*/}
             {/*grid-cols-1 (Ocupa toda la pantalla) | Grid-cols-8 lg (Para Desktop la divido en 8)*/}
-            <main className=" lg:pl-28 grid grid-cols-1 lg:grid-cols-8  ">
+            <main className=" lg:pl-28 grid grid-cols-1 lg:grid-cols-8 pb-20">
                 <div className="lg:col-span-6 bg-[#1e1e24] p-4 pb-20">
                     {/*Header*/}
                     <header className="bg-[#1e1e24] pt-4 pl-2 pr-2">
@@ -129,7 +129,27 @@ function App() {
                         <PlateList className="" activeTab={activeTab} dishes={dishes}/>
                     </div>
                 </div>
-                <div className="lg:col-span-2 bg-[#000e14] fixed lg:static right-0">Hola2</div>
+                {/* Order */}
+                <div className="lg:col-span-2 bg-[#000e14] fixed lg:static right-0 top-0 w-full h-full">
+                    <div className="relative p-8 pt-16 text-gray-500">
+                        <MdOutlineClose className="left-4 top-4 absolute p-2 box-content bg-[#1e1e24] rounded-full lg:"/>
+                        <h1 className="text-2xl text-gray-500 font-bold mt-4">Order #151436</h1>
+                        <div className="flex flex-row justify-start mt-4 ">
+
+                            <motion.button whileTap={{scale: 0.9}}
+                                           className={`text-lg p-2 bg-[#000e14] text-[#dd7d36] pl-2 pr-2
+                                           hover:bg-[#dd7d36] hover:text-white border-2 border-[#dd7d36] rounded-lg mr-5 transition-colors`}
+                            >Dine In</motion.button>
+
+                            <motion.button whileTap={{scale: 0.9}}
+                                           className="text-lg p-2 bg-[#000e14] text-[#dd7d36] pl-2 pr-2
+                                           hover:bg-[#dd7d36] hover:text-white border-2 border-[#dd7d36] rounded-lg transition-colors"
+                            >Delivery</motion.button>
+                        </div>
+                    </div>
+                    <div className="p-8 pt-16  text-gray-500">
+                    </div>
+                </div>
 
             </main>
 
