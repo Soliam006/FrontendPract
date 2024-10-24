@@ -129,7 +129,7 @@ function App() {
                         <PlateList className="" activeTab={activeTab} dishes={dishes}/>
                     </div>
                 </div>
-                {/* Order */}
+                {/* Order 
                 <div className="lg:col-span-2 bg-[#000e14] fixed lg:static right-0 top-0 w-full h-full">
                     <div className="relative p-8 pt-16 text-gray-500">
                         <MdOutlineClose className="left-4 top-4 absolute p-2 box-content bg-[#1e1e24] rounded-full lg:"/>
@@ -149,7 +149,7 @@ function App() {
                     </div>
                     <div className="p-8 pt-16  text-gray-500">
                     </div>
-                </div>
+                </div>*/}
 
             </main>
 
